@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog: Form Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="container dark">
+        
+        <header>
+            <a href="#" id="theme-switcher"><p class="lightMode">Light &#x2600 Mode</p></a>
+        </header>
+        
+        <main>
+            <div class="leftDiv mainBox">
+                <div class="logo">
+                    <h2>My first Blog</h2>
+                </div>
+
+            </div>
+            <div class="rightDiv mainBox">
+                <h3>What's on your mind?</h3>
+                
+                <form id="blog-form">
+                    <label for="username">Username </label><br>
+                    <input id="user-name" type="text" name="name"><br>
+                    <label for="title">Title</label><br>
+                    <input id="msg-title" type="text" name="title"><br>
+                    <label for="content">Content</label><br>
+                    <textarea id="msg" name="content" rows="5"></textarea><br>
+                    <button id="submit" type="submit">Submit</button>
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <script src="./assets/js/logic.js"></script>
+        <script src="./assets/js/form.js"></script>
+       
+         
+    
+</body>
+</html>

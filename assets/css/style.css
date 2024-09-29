@@ -1,0 +1,171 @@
+:root{
+    --darkmode1: rgb(48, 48, 48);
+    --darkmode2: rgb(117, 117, 117);
+    --lightmode1: rgb(255, 255, 255);
+    --lightmode2: rgb(0, 0, 0);
+    
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+header a{
+    margin-right: 20px;     
+    font-size: large;
+    text-decoration: none;
+}
+
+
+main{
+    
+    height: 89vh;
+    margin-top: 10px;
+    
+    display: flex;
+}
+
+.mainBox{
+    
+    width: 50%;
+    
+}
+
+.leftDiv{
+    margin-right: 5px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+}                     
+    
+.logo h2{
+    font-size: 50px;
+        
+}
+    
+.rightDiv{
+    margin-left: 5px;    
+    display: flex;  
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; 
+}
+#theme-switcher{
+    text-decoration: none;
+}
+/* -------------------------------------light mode */
+.light header p{
+    color: orange;  
+     
+}
+
+.light .logo{
+    background-image: linear-gradient(
+        rgb(255, 236, 66) 0%,
+        rgba(54, 32, 5, 0.986) 100%);   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 15px black;
+}
+
+.light main{
+    border-top: 3px solid black;
+}
+
+.light .leftDiv{
+    border-right: 3px solid black;
+}
+
+.light .rightDiv{
+    border-left: 3px solid black;
+}
+
+.light button{
+    background-color: black;
+    color: white;
+}
+/* -------------------------------------dark mode */
+.dark {
+    background-color: var(--darkmode1);
+}
+.dark header{
+    border-bottom:3px solid var(--darkmode2);
+}
+.dark header p{
+    color: orange;   
+}
+
+.dark .logo{
+    background-image: linear-gradient(
+        rgb(255, 255, 255) 0%,
+        rgba(26, 26, 26, 0.986) 100%);   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 15px black;
+}
+
+.dark main{
+    border-top: 3px solid var(--darkmode2);
+}
+
+.dark .leftDiv{
+    border-right: 3px solid var(--darkmode2);
+}
+
+.dark .rightDiv{
+    border-left: 3px solid var(--darkmode2);
+}
+
+.dark button{
+    background-color: black;
+    color: white;
+}
+.dark form{
+    color: white;
+}
+.dark h3{
+    color: white;
+}
+
+/* Start Form------------------------------------------------*/
+form{   
+    padding-left: 8%;
+    width: 80%;
+} 
+
+label{
+    font-weight: bold;
+  
+}
+
+input{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 90%;
+}
+
+button{
+    width: 90%;
+    
+}
+/* end Form------------------------------------------------*/

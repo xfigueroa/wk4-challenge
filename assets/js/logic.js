@@ -1,4 +1,4 @@
-// ---------- Change Mode -----------
+// ---------- Change Theme  -----------
 const themeSwitcher = document.querySelector('#theme-switcher');
 const container = document.querySelector('.container');
 
@@ -17,4 +17,4 @@ themeSwitcher.addEventListener('click', function () {
     container.setAttribute('class', 'dark');
   }
 });
-// ---------- Change Mode -----------
+// ---------- Change Theme -----------

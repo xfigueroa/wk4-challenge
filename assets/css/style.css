@@ -144,28 +144,7 @@ main{
     color: white;
 }
 
-/* Start Form------------------------------------------------*/
-form{   
-    padding-left: 8%;
-    width: 80%;
-} 
-
-label{
-    font-weight: bold;
-  
+#error-message{
+    color: rgba(244, 50, 50, 0.942);
 }
 
-input{
-    width: 90%;
-    margin-bottom: 10px;
-}
-
-textarea{
-    width: 90%;
-}
-
-button{
-    width: 90%;
-    
-}
-/* end Form------------------------------------------------*/
